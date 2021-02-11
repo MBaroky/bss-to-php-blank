@@ -1,5 +1,6 @@
 # Blank repo for Bootstrap Studio to create PHP site
 ----------
+
 **** Including the PHP form files
 > tested on Bootstrap Studio 5.1.1
 ## Instructions
@@ -22,9 +23,10 @@
 > at line #8 inside `()` add `, <your file's name without extention>.php`
 
 #### In header
-at the beginning of file:
+**** at the beginning of file:
+> for active case and mobile detect: optional
 
-```\<\!--for active case and mobile detect: optional--\>\
+```
 <?php
 $activePage = basename($_SERVER['PHP_SELF'], ".php");
 function isMobile() {
@@ -34,9 +36,15 @@ function isMobile() {
 
 ```
 
-in the end of file:
+> then use the following code in each link's class attribute to dinamicly add the active class \*\[FILENAME\] is the href of the link as relative path \*
+
+`<?= ($activePage == '[FILENAME]') ? 'active':''; ?>`
+
+**** in the end of file:
 
 > <\!--end of header.php-->
+
+
 
 #### In footer
 #### In index
