@@ -4,7 +4,7 @@
 > tested on Bootstrap Studio 5.1.1
 ## Instructions
 1. ### Install via npm
-> npm install bss-to-php-blank
+> git clone https://github.com/MBaroky/bss-to-php-blank.git
 
 2. ### Create Bootstrap Studio Template with files:
 - header.html [then add these blocks of code](#in-header)
