@@ -3,7 +3,8 @@
 **** Including the PHP form files
 ## Instructions
 1. ### Install via npm
-`test`
+`npm install bss-to-php-blank`
+
 2. ### Create Bootstrap Studio Template with files:
 - [header.html](#in-header)
 - footer.html
