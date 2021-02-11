@@ -1,0 +1,20 @@
+{
+  "name": "bss-to-php-blank",
+  "version": "1.0.0",
+  "description": "----------\r **** Including the PHP form files\r > tested on Bootstrap Studio 5.1.1\r ## Instructions\r 1. ### Install via npm\r > npm install bss-to-php-blank",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MBaroky/bss-to-php-blank.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MBaroky/bss-to-php-blank/issues"
+  },
+  "homepage": "https://github.com/MBaroky/bss-to-php-blank#readme"
+}
