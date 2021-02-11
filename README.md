@@ -5,7 +5,7 @@
 1. ### Install via npm
 ``
 2. ### Create Bootstrap Studio Template with files:
-- [header.html](### In header.html:)
+- [header.html](#In-header.html:)
 - footer.html
 - index.html
 - contact.html
