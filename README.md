@@ -1,6 +1,7 @@
 # Blank repo for Bootstrap Studio to create PHP site
 ----------
 **** Including the PHP form files
+> tested on Bootstrap Studio 5.1.1
 ## Instructions
 1. ### Install via npm
 `npm install bss-to-php-blank`
