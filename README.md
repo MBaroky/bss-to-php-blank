@@ -16,9 +16,10 @@
 
 4. ### On each additional page
 **** take care don't use name:
-- form.html
+(form.html)
+
 **** in PHPer.bat
-- at line #8 inside `()` add `, <your file's name without extention>.php`
+(at line #8 inside `()` add `, <your file's name without extention>.php`)
 
 #### In header
 #### In footer
