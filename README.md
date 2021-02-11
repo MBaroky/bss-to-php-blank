@@ -24,13 +24,13 @@
 #### In header
 at the beginning of file:
 
-> <!--for active case and mobile detect: optional-->
-> <?php
-> $activePage = basename($_SERVER['PHP_SELF'], ".php");
-> function isMobile() {
->     return preg_match("/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i", $_SERVER["HTTP_USER_AGENT"]);
-> }
-> ?>
+`<!--for active case and mobile detect: optional-->
+<?php
+$activePage = basename($_SERVER['PHP_SELF'], ".php");
+function isMobile() {
+    return preg_match("/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i", $_SERVER["HTTP_USER_AGENT"]);
+}
+?>`
 
 in the end of file:
 
