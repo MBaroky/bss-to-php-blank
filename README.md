@@ -36,7 +36,7 @@ function isMobile() {
 
 in the end of file:
 
-```\<!--end of header.php-->\
+```\<!\--end of header.php--\>\
 
 ```
 
