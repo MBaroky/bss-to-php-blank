@@ -41,6 +41,10 @@ function isMobile() {
 
 `<?= ($activePage == '[FILENAME]') ? 'active':''; ?>`
 
+> to use the isMobile method: \* **whatsapp link example** \*
+
+`<?= (isMobile()) ? 'https://wa.me/201202855556':'https://web.whatsapp.com/send?phone=201202855556'; ?>`
+
 **in the end of file:**
 
 ` <!--end of header.php-->`
